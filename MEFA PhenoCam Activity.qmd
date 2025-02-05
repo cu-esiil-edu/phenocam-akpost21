@@ -141,7 +141,7 @@ Now, we'll create an interactive map to view all the PhenoCam sites colored by t
 
 ```{r}
 # Remove sites with NA and empty cells for primary_veg_type
-sitelist_table2 <- sitelist_table[!(is.na(sitelist_table$primary_veg_typ) | sitelist_table$primary_veg_typ==""), ]
+sitelist_table2 <- sitelist_table[!(is.na(sitelist_table$primary_veg_type) | sitelist_table$primary_veg_type==""), ]
 ```
 
 Then, we'll create a static map of the PhenoCam sites using their latitude and longitude (included in "sitelist_table2"). We'll overlay this onto a basemap of the world and US states.
@@ -456,5 +456,3 @@ file.remove(f)
 #### Thank you
 
 Thanks for exploring PhenoCam data. Hopefully, you have a stronger appreciation for phenology now!
-
-Hello!
