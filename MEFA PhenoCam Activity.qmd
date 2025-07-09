@@ -199,7 +199,7 @@ site_name = "lacclair"
 veg = "DB"
 
 # Choose data year (for downloading images later)
-year = 2022
+year = 2024
 
 # Indicate ROI ID
 ROI = 1000
@@ -456,7 +456,3 @@ file.remove(f)
 #### Thank you
 
 Thanks for exploring PhenoCam data. Hopefully, you have a stronger appreciation for phenology now!
-
-hELLO
-
-take 2
